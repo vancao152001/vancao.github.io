@@ -1,0 +1,357 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+.herosection{
+    position: relative;
+    background-image: url(/imgs/heroimg.png);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-position: right;
+     
+}
+.topbar{
+    position:absolute;
+    list-style-type: none;
+    left: 220px;
+    padding-top:50px;
+}
+.topbar a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 7px;
+
+}
+.topbar a:hover{
+    border-bottom:3px solid #F26522; 
+    color:white;
+    text-decoration: none;
+}
+.topbar_item{
+    display:flex;
+    
+}
+.TRANS{
+    writing-mode: vertical-rl;
+    font-size: 25px;
+    color:#FFFFFF;
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left:auto;
+
+   
+}  
+.text{
+    color:#F26522;
+    transform: scale(-1, 1); 
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+     display:inline-block;
+
+}
+ .section2{
+    display:flex;
+    flex-direction:row;
+    padding-top:92px;
+    
+ }  
+ 
+
+.container{
+    height:323px;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    padding-left:350px;
+    padding-top: 80px;
+}
+.minus{
+    display:flex;
+    flex-direction: column;
+    padding-right:50px;
+
+}
+.icon_class{
+    display:flex;
+    flex-direction: row;
+    
+}
+.section_item{
+    
+
+}   
+
+.icon{
+    margin-left:120px;
+   
+    
+    
+}
+.container h1{
+    font-size:45px;
+    padding-bottom: 15px;
+}
+.container p{
+    line-height:24px;
+}
+
+.container_2{
+    background-color: #F26522;
+    margin-left:350px;
+    padding: 16px 24px 16px 24px;
+
+ 
+}
+.container_2 h1{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.container_2 p{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+.container_3{
+    padding-left:30px;
+    padding-top: 36px;
+   
+}
+.container_3 h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #3A4D69;
+}
+.container_3 p{
+    margin-right:30px;
+    color: #83969F;
+    font-family: 'Open Sans', sans-serif;
+}
+.container_3 i {
+    color:#83969F;
+}
+.container_3 u{
+    text-decoration: none;
+    color:#83969F;
+}
+.section3{
+    
+    padding-top:320px;
+    margin: 0 24px 0 24px;
+    padding-bottom: 60px;
+}
+.section3 h1{
+    padding-left:100px;
+}
+.section3_1{
+    padding-left:100px;
+}
+.section3 h1{
+    font-family: 'Raleway', sans-serif;
+    color:#3A4D69;
+}
+.section3_1 p{
+  margin-right:30px;
+  font-family:'Open Sans', sans-serif;
+}
+.section3_2{
+    font-family:'Open Sans', sans-serif;
+    padding-right:100px;
+    padding-left:29px;
+}
+.section3_{
+    display:flex;
+}
+.img2{
+    width:100%;
+    background-size:cover;
+    position:relative;
+   
+}
+.img22{
+    width:100%;
+}
+.herosection2{
+    display:flex;
+    flex-direction: column;
+}
+.img2below{
+    display:flex;
+    flex-direction: row;
+    background-color: #F26522;
+    margin-left:180px;
+    padding: 50px 30px 50px 30px;
+}
+.img2below_1{
+    padding-right:40px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.img2below_2{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    padding-right:40px;
+
+
+}
+.img2above{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    bottom:0px;
+    margin-left:180px;
+}
+.img2_1{
+    background-color: #F26522;
+    width:450px;
+    font-family: 'Raleway', sans-serif;
+    font-size:60px;
+    color:white;
+    padding: 60px 40px;
+}
+
+.formsection{
+    background-color: #323339;
+    height:180px;
+    padding:40px 180px;
+    margin-left:180px;
+
+}
+.formsection h1{
+    color:white;
+    margin:0px;
+    font-weight: 35px;
+    font-family: 'Raleway', sans-serif ;
+    padding-bottom:10px;
+}
+.formsection input{
+    width:200px;
+    height:50px;
+    border-radius:3px;   
+}
+
+.formsection input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+}
+.formsection button{
+    height:50px;
+    width:140px;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    border-color: white;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.herosection_3{
+   margin-left:180px;
+  
+}
+   
+.img3{
+    position:relative;
+}
+.img3_below_1{
+    background-color: #F26522;
+    padding: 24px 44px;
+    width: 400px;
+}
+.img3_below{
+    display:flex;
+    flex-direction:row;  
+    position:relative;
+    width: 80%;
+    margin-top: -197px;
+    z-index:1;
+    
+}
+.img3_below_1 h1 {
+    font-family:'Raleway', sans-serif ;
+    font-weight: 35px;
+    color: white;
+    
+}
+.img3_below_1 p{
+    font-family:'Raleway', sans-serif ;
+    font-weight: 14px;
+    color: white;
+}
+.img3_below_2{
+padding-bottom: 80px;
+}
+.img3_below_2_2{
+    padding:44px 34px 100px 25px;
+}
+.img3_below_2_2 h1{
+    font-family:'Raleway', sans-serif ;
+    color: #3A4D69;
+}
+.img3_below_2_2 p{
+    color:#83969F;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    background-color: #323339;
+}
+.footerr{
+    
+    display:flex;
+    justify-content: space-between;
+    color:#F26522;
+    padding:50px 180px 40px 180px;
+
+}
+.footeritem_1 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.footeritem_2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.footeritem_3 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.footeritem_4 p{
+    font-family: 'Montserrat', sans-serif;
+}
+.footeritem_5 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footeritem_1 a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+}
+.footeritem_2 a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+}
+.footeritem_3 a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+}
+.footeritem_4 a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+}
+.footeritem_5 a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+}
+
+.pa{
+    color:#494A56;
+    padding: 60px 180px 60px 180px;
+}
+
